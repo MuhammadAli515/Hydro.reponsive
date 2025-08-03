@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Hydro Website</title>
+</head>
+<body class="font-[Roboto]">
+
+  <!-- Background Section -->
+  <div class="w-full min-h-screen bg-center bg-no-repeat bg-cover bg-[url('home-bg.jpg')]">
+    <div class="w-full h-full lg:h-[500px] bg-gradient-to-br from-[#0482D6BF] to-[#00E96ABF]">
+
+      <!-- Navbar -->
+      <div class="flex flex-wrap items-center justify-between w-[85%] mx-auto py-4">
+        <!-- Logo -->
+        <div class="text-white text-2xl font-semibold">
+          Hydro
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+          <ul class="flex gap-4">
+            <li><a class="text-white text-lg hover:bg-blue-700 px-3 py-2 rounded" href="#">Home</a></li>
+            <li><a class="text-white text-lg hover:bg-blue-700 px-3 py-2 rounded" href="#">About</a></li>
+            <li><a class="text-white text-lg hover:bg-blue-700 px-3 py-2 rounded" href="#">Blog</a></li>
+            <li><a class="text-white text-lg hover:bg-blue-700 px-3 py-2 rounded" href="#">Our Work</a></li>
+            <li><a class="text-white text-lg hover:bg-blue-700 px-3 py-2 rounded" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <!-- Social + Button -->
+        <div class="flex items-center gap-8">
+          <div class="flex text-white gap-6 text-lg">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <button class="bg-red-700 text-white px-4 py-2 rounded-full text-sm">Sign in / Join</button>
+        </div>
+      </div>
+
+      <!-- Hero Section -->
+      <section class="flex flex-col-reverse md:flex-row justify-between items-center w-[85%] mx-auto py-20">
+        <!-- Left Text Content -->
+        <div class="max-w-xl text-white">
+          <h2 class="text-4xl font-normal mb-6">We make beautiful <br> websites for all people.</h2>
+          <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+            <button class="bg-transparent border-2 border-white text-white w-40 h-12 rounded-full hover:bg-blue-700 transition-all">Start a project</button>
+            <p class="text-md font-medium">CALL US (+66) 010-02-0340 <br> For any inquiry</p>
+          </div>
+        </div>
+
+        <!-- Video -->
+        <div class="mb-10 md:mb-0 md:ml-10">
+          <iframe width="400" height="225" src="https://www.youtube.com/embed/AqcjdkPMPJA?si=THSkrVIv8Ol_CKaT" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+    </div>
+  </div>
+
+<div class="font-['Roboto'] w-full flex flex-col lg:flex-row justify-center items-center gap-6 px-12">
+  
+  <!-- Text Section -->
+  <div class="max-w-md ml-7">
+    <p class="text-[33px] leading-[2] font-semibold">Let us introduce</p>
+    <p class="leading-relaxed text-gray-700">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. voluptatibus neque possimus dignissimos, dolorum tenetu pariatur minus ullam sunt. <br>
+      Vitae quidem. Deleniti libero eaque dolorum cupiditate, obcaecati rem consequuntur.
+    </p>
+  </div>
+
+  <!-- Progress Bars -->
+  <div class="flex-1 w-full max-w-md space-y-4">
+    <!-- Web Design -->
+    <div>
+      <div class="flex justify-between text-md mb-1">
+        <p>Web Design</p>
+        <span>85%</span>
+      </div>
+      <div class="w-full bg-gray-300 h-2 rounded-full">
+        <div class="bg-black h-2 rounded-full" style="width: 85%"></div>
+      </div>
+    </div>
+
+    <!-- Photography -->
+    <div>
+      <div class="flex justify-between text-md mb-1">
+        <p>Photography</p>
+        <span>90%</span>
+      </div>
+      <div class="w-full bg-gray-300 h-2 rounded-full">
+        <div class="bg-black h-2 rounded-full" style="width: 90%"></div>
+      </div>
+    </div>
+
+    <!-- Content Marketing -->
+    <div>
+      <div class="flex justify-between text-md mb-1">
+        <p>Content Marketing</p>
+        <span>75%</span>
+      </div>
+      <div class="w-full bg-gray-300 h-2 rounded-full">
+        <div class="bg-black h-2 rounded-full" style="width: 75%"></div>
+      </div>
+    </div>
+
+    <!-- CMS Admin -->
+    <div>
+      <div class="flex justify-between text-md mb-1">
+        <p>CMS Admin</p>
+        <span>70%</span>
+      </div>
+      <div class="w-full bg-gray-300 h-2 rounded-full">
+        <div class="bg-black h-2 rounded-full" style="width: 70%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image -->
+  <div>
+    <img src="about-image.jpg" class="w-[260px] h-[250px] mb-10 mt-8 object-cover rounded" alt="About Image">
+  </div>
+</div>
+
+
+<div class="w-full mt-[6px] bg-[#F0F0F0] font-medium">
+  <h2 class="text-center mb-[30px] pt-[60px] text-black font-bold text-2xl">Our Blog</h2>
+  
+  <div class="ml-4 grid grid-cols-1 md:grid-cols-2 gap-6 px-4 md:px-[70px]">
+    
+    <!-- Blog Card Start -->
+    <div class="rounded-[10px] h-[310px] flex bg-white shadow-xl overflow-hidden">
+      <img src="blog-image1.jpg" class="w-[200px] h-full object-cover object-center" alt="">
+      <div class="p-5">
+        <span class="text-[#f00e12] text-sm block mb-2 mt-8">December 22, 2017</span>
+        <h3 class="text-[22px] font-semibold leading-[1.2] capitalize mb-2">How To Find Out Beautiful Workspace</h3>
+        <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="mt-5 py-2 px-6 rounded-[18px] bg-[#444242] hover:bg-blue-700 text-white">
+          Read Article
+        </button>
+      </div>
+    </div>
+    <!-- Blog Card End -->
+
+    <!-- Repeat the same structure for other blog cards -->
+
+    <div class="rounded-[10px] h-[310px] flex bg-white shadow-xl overflow-hidden">
+      <img src="img.png" class="w-[200px] h-full object-cover object-center" alt="">
+      <div class="p-5">
+        <span class="text-[#f00e12] text-sm block mb-2 mt-8">December 22, 2017</span>
+        <h3 class="text-[22px] font-semibold leading-[1.2] capitalize mb-2">Women Sportwear</h3>
+        <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="mt-5 py-2 px-6 rounded-[18px] bg-[#444242] hover:bg-blue-700 text-white">
+          Read more
+        </button>
+      </div>
+    </div>
+
+    <div class="rounded-[10px] h-[310px] mb-8 flex bg-white shadow-xl overflow-hidden">
+      <img src="blog-image3.jpg" class="w-[200px] h-full object-cover object-center" alt="">
+      <div class="p-5">
+        <span class="text-[#f00e12] text-sm block mb-2 mt-8">December 22, 2017</span>
+        <h3 class="text-[22px] font-semibold leading-[1.2] capitalize mb-2">How to Findout Beautiful Workspace</h3>
+        <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="mt-5 py-2 px-6 rounded-[18px] bg-gray-300 text-black  hover:bg-blue-700 ">
+          Read Article
+        </button>
+      </div>
+    </div>
+
+    <div class="rounded-[10px] h-[310px] mb-8 flex bg-white shadow-xl overflow-hidden">
+      <img src="blog-image4.jpg" class="w-[200px] h-full object-cover object-center" alt="">
+      <div class="p-5">
+        <span class="text-[#f00e12] text-sm block mb-2 mt-8">December 22, 2017</span>
+        <h3 class="text-[22px] font-semibold leading-[1.2] capitalize mb-2">How to Findout Beautiful Workspace</h3>
+        <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="mt-5 py-2 px-6 rounded-[18px] bg-gray-300 text-black hover:bg-blue-700 ">
+          View Detail
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="w-full mt-8">
+  <h2 class="text-center mb-10 pt-4 font-bold text-2xl sm:text-3xl lg:text-3xl">Our Work</h2>
+
+  <div class=" ml-5 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 sm:px-8 md:px-16">
+    <div>
+      <img src="work-image1.jpg" class="w-full h-[190px] object-cover object-center shadow-md" alt="">
+    </div>
+    <div>
+      <img src="work-image2.jpg" class="w-full h-[190px] object-cover object-center  shadow-md" alt="">
+    </div>
+    <div>
+     <img src="work-image3.jpg" class="w-full h-[190px] object-cover object-center  shadow-md" alt=""> 
+    </div>
+    <div>
+      <img src="work-image4.jpg" class="w-full h-[190px] object-cover object-center shadow-md" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="w-full bg-gradient-to-br from-[#0482D6] to-[#00E96A] mt-[60px]">
+    <h2 class="text-center pt-10 mb-10 text-white text-3xl font-semibold">Contact us</h2>
+    <div class="flex flex-col lg:flex-row justify-center items-start gap-[95px] px-4 pb-10">
+      <div class="contact-form w-full lg:w-1/2">
+        <form action="">
+          <div class="flex flex-col lg:flex-row gap-4">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Your Email">
+          </div>
+          <div class="flex flex-col lg:flex-row gap-4">
+            <input type="tel" placeholder="Your Phone" required>
+            <select required>
+              <option value="" disabled selected>Budget Level</option>
+              <option value="Low">Low</option>
+              <option value="Medium">Medium</option>
+              <option value="High">High</option>
+            </select>
+          </div>
+          <textarea rows="5" placeholder="Your requirements"></textarea>
+          <button type="submit" class="bg-[#CD3234] text-white px-8 py-3 uppercase rounded-full text-sm w-fit">Send Message</button>
+        </form>
+      </div>
+      <div class="map">
+        <iframe class="border-none w-full lg:w-[280px] h-[265px] rounded-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9507545068404!2d73.10905927442023!3d31.415482852318714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39226940221cbeb9%3A0x87aed33b83a332bd!2sEdify%20College%20of%20IT!5e0!3m2!1sen!2s!4v1730135010658!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+
+<!-- Top Footer -->
+<div class="w-full bg-gradient-to-br from-[#404040] to-[#090909] text-white">
+  <div class="w-[85%] max-w-[1200px] mx-auto py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+      
+      <!-- Hydro Company -->
+      <div class="lg:col-span-2 mb-10">
+        <h3 class="text-[25px] mt-[50px] mb-[10px]">Hydro Company</h3>
+        <p class="text-[17px] leading-[30px]">Lorem ipsum dolor sit amet consectetur adipisicing elit Alias dolor possimus error enim rem dolorum?</p>
+      </div>
+
+      <!-- Company Links -->
+      <div>
+        <h3 class="text-[25px] mt-[50px] mb-[10px]">Company</h3>
+        <p><a class="text-white no-underline text-[16px] leading-[30px]" href="#">About Us</a></p>
+        <p><a class="text-white no-underline text-[16px] leading-[30px]" href="#">Join Our Team</a></p>
+        <p><a class="text-white no-underline text-[16px] leading-[30px]" href="#">Read Blog</a></p>
+        <p><a class="text-white no-underline text-[16px] leading-[30px]" href="#">Press</a></p>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <h3 class="text-[25px] mt-[50px] mb-[10px]">Services</h3>
+        <p class="text-[17px] leading-[30px]">Pricing</p>
+        <p class="text-[17px] leading-[30px]">Documentation</p>
+        <p class="text-[17px] leading-[30px]">Support</p>
+      </div>
+
+      <!-- Location -->
+      <div>
+        <h3 class="text-[25px] mt-[50px] mb-[10px]">Find us</h3>
+        <p class="text-[17px] leading-[30px]">Faisalabad , Edify College of IT</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Bottom Footer -->
+<div class="w-full bg-gradient-to-br from-[#404040] to-[#090909] text-white border-t border-gray-500">
+  <div class="w-[80%] max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center py-6 gap-4">
+
+    <!-- Copyright -->
+    <div class="text-center md:text-left text-md">
+      <p>Copyright &copy; 2017 Your Company</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="text-center text-md">
+      <p>Call Us: (+92) 304-4973977</p>
+    </div>
+
+    <!-- Social Media -->
+    <div class="flex gap-6 text-xl">
+      <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
